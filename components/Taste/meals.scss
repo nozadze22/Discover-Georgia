@@ -1,0 +1,35 @@
+.sectionn {
+    width: 100%;
+    height: 100%;
+    background-color: black !important;
+
+    .images {
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 8px;
+        transition: 2s;
+        cursor: pointer;
+
+
+    }
+
+    .titlee {
+        width: 100%;
+        top: -40px;
+        color: white;
+        z-index: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        position: relative;
+        cursor: pointer;
+
+        transition: 2s;
+
+        &:hover {
+            color: rgb(149, 113, 4);
+        }
+    }
+}

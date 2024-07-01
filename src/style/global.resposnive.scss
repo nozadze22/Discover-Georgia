@@ -1,0 +1,371 @@
+//Home page responsie
+
+@media screen and (max-width: 1015px) {
+    .textt {
+        right: 100px;
+    }
+
+    @media screen and (max-width:600px) {
+        .textt {
+            right: 50px;
+            font-size: 30px;
+        }
+    }
+}
+
+@media screen and (max-width:844px) {
+    .text {
+        right: 100px;
+    }
+
+    @media screen and (max-width:510px) {
+        .text {
+            right: 70px;
+            font-size: 30px;
+        }
+
+        .sectext {
+            font-size: 17px;
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .food {
+        .context {
+            width: 100% !important;
+        }
+    }
+
+    @media screen and (max-width:800px) {
+        .food {
+            width: 98% !important;
+        }
+
+        @media screen and (max-width:720px) {
+            .food {
+                display: grid !important;
+                grid-template-columns: 1fr !important;
+            }
+
+            .food {
+                .context {
+                    .firstcontext {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+
+                    }
+
+                    .maincontext {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                    }
+
+                    .lastcontext {
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        margin: auto;
+                        width: 100% !important;
+                    }
+
+                    a {
+                        padding-top: 10px;
+                        margin-left: 10px;
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .cards {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        gap: 10px;
+    }
+
+    @media screen and (max-width:500px) {
+        .cards {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 10px;
+        }
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .tour {
+        .season {
+            display: grid;
+            grid-template-columns: 2fr 2fr;
+            padding: 10px;
+
+            .forimage {
+                &:hover {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        .tour {
+            .season {
+                display: grid;
+                grid-template-columns: 1fr;
+
+            }
+        }
+    }
+}
+
+
+
+
+
+//end Home page responsive
+
+
+//about page responsive start
+
+
+@media screen and (max-width: 700px) {
+    .history {
+        .forim {
+            .imgcontext {
+                width: 100% !important;
+                padding-left: 10px !important;
+                text-align: center;
+            }
+
+        }
+    }
+
+    @media screen and (max-width: 600px) {
+        .georgia {
+            width: 90% !important;
+        }
+    }
+
+}
+
+
+
+//about page rsponsive end
+
+
+
+//taste starts
+
+@media screen and (max-width: 800px) {
+    .Food {
+        display: grid !important;
+        grid-template-columns: repeat(2, 8fr) !important;
+    }
+
+    @media screen and (max-width: 520px) {
+        .Food {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+        }
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .headerr2 {
+        .maintitle {
+            font-size: 45px !important;
+        }
+    }
+}
+
+
+@media screen and (max-width: 625px) {
+    .dishes {
+        width: 100% !important;
+        padding: 10px !important;
+    }
+
+    @media screen and (max-width: 4050px) {
+        .dishes {
+            width: 100% !important;
+            padding: 10px !important;
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+            padding: 0px;
+
+            .warning2 {
+                padding: 10px !important;
+                padding-left: 30px !important;
+            }
+        }
+    }
+}
+
+
+
+
+//taste ends
+
+
+//svaneti starts
+
+@media screen and (max-width:800px) {
+    .svaneti {
+        .simage {
+
+            .scontent2 {
+                padding: 20px !important;
+                margin: auto !important;
+                width: 100% !important;
+                top: -600px !important;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:435px) {
+    .svaneti {
+        .simage {
+
+            .scontent2 {
+                font-size: 17px !important;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:580px) {
+
+    .svaneti {
+        .simage {
+            .scontent {
+                width: 100% !important;
+                margin: auto !important;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                padding-left: 0px !important;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width:580px) {
+
+    .svaneti {
+        .simage {
+            .scontent {
+                font-size: 45px !important;
+            }
+        }
+    }
+}
+
+
+
+@media screen and (max-width:768px) {
+    .svaneticontent {
+        width: 80% !important;
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+
+    .svaneticontent .svaneti .svaneti-content {
+        font-size: 16px !important;
+    }
+
+    .svaneticontent .svaneti .svaneti-header {
+        font-size: 30px !important;
+    }
+}
+
+//svaneti ends
+
+
+
+//kaxeti starts
+
+@media screen and (max-width: 900px) {
+    .kmain .Kcontent {
+        width: 70% !important;
+        margin: auto !important;
+    }
+
+    .kmain .kplaces {
+        width: 90% !important;
+        margin: auto !important;
+    }
+
+    .kmain .ktours {
+        width: 90% !important;
+        margin: auto !important;
+    }
+}
+
+@media screen and (max-width:735px) {
+    .kmain .kimage .kcontent2 {
+        width: 100% !important;
+        padding-left: 20px !important;
+        padding-right: 10px !important;
+
+    }
+
+    .kmain .kimage .kcontent {
+        width: 100% !important;
+        padding-left: 20px !important;
+        margin: auto !important;
+        display: flex !important;
+        justify-content: center;
+        align-items: center;
+    }
+
+    @media screen and (max-width:650px) {
+        .kmain .ktours {
+            display: grid !important;
+            grid-template-columns: 1fr !important;
+        }
+    }
+
+    .kmain .kplaces {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+
+    .kmain .jorney {
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+        padding-top: 100px !important;
+        gap: 30px;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .kmain .Kcontent {
+        width: 90% !important;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .kmain .kimage .kcontent2 {
+        font-size: 17px !important;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .kmain .kimage .kcontent {
+        font-size: 45px !important;
+    }
+}
+
+//xaketi ends

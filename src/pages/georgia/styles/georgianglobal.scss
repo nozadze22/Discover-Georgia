@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sevillana&display=swap');
+
+.mainfont {
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+.svaneti {
+    width: 100%;
+    height: 100%;
+    padding-top: 100px;
+    padding-bottom: 40px;
+    font-family: "Edu TAS Beginner", cursive;
+
+    .simage {
+        width: 100%;
+        height: 900px;
+        background-color: black;
+
+        .simg {
+            width: 100%;
+            height: 900px;
+            object-fit: cover;
+        }
+
+        .scontent {
+            position: relative;
+            font-family: "Sevillana", cursive;
+            top: -600px;
+            color: white;
+            padding-left: 200px;
+            font-size: 80px;
+        }
+
+
+        .scontent2 {
+            width: 700px;
+            position: relative;
+            top: -560px;
+            color: white;
+            padding-left: 200px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .sdestination {
+            position: relative;
+            top: -500px;
+            padding-left: 50px;
+            font-size: 20px;
+            color: white;
+        }
+    }
+}
+
+.svaneticontent {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+
+    .svaneti {
+        width: 100%;
+        height: 100%;
+
+        .svaneti-header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: 800;
+            font-family: "Sevillana", cursive;
+            font-size: 40px;
+
+        }
+
+        .sfirst-photo {
+            width: 100%;
+            height: 450px;
+            opacity: 1;
+            border-radius: 8px;
+            margin-top: 20px;
+
+        }
+
+        .svaneti-content {
+            padding-top: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}
+
+.info {
+    width: 30%;
+    height: 40%;
+
+    a {
+        text-decoration: none;
+        color: red;
+
+        .gotosvaneti {
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            transition: 2s;
+
+            &:hover {
+                color: white;
+                background-color: black;
+            }
+        }
+    }
+}

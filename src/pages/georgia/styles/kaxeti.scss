@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sevillana&display=swap');
+
+.mainfont {
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+
+
+.kmain {
+    width: 100%;
+    height: 100%;
+    font-family: "Edu TAS Beginner", cursive;
+    margin-bottom: 100px;
+
+
+
+    .kimage {
+        width: 100%;
+        height: 1000px;
+        background-color: black;
+
+        .kimg {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .kcontent {
+            position: relative;
+            font-family: "Sevillana", cursive;
+            top: -650px;
+            color: white;
+            padding-left: 200px;
+            font-size: 80px;
+        }
+
+
+        .kcontent2 {
+            width: 700px;
+            position: relative;
+            top: -600px;
+            color: white;
+            padding-left: 200px;
+            font-size: 20px;
+            line-height: 25px;
+        }
+
+        .kdestination {
+            position: relative;
+            top: -550px;
+            padding-left: 50px;
+            font-size: 20px;
+            color: white;
+            height: 100%;
+            padding-right: 10px;
+        }
+    }
+
+    .Kcontent {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+        box-sizing: border-box;
+        padding-top: 50px;
+
+        .Kheader {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: auto;
+        }
+
+        .Kstory {
+            width: 100%;
+            padding: 20px 10px 0px 10px;
+            font-size: 20px;
+        }
+
+        .Kcharhcimg {
+            opacity: 1;
+            width: 100%;
+            height: 300px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+
+        .activites {
+            width: 300px;
+            height: 100%;
+            display: flex;
+            margin: auto;
+            padding-top: 50px;
+
+
+            .flag {
+                width: 100%;
+
+                .flagbox {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 59%;
+                    background-color: red;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+                }
+
+                .kcontentbox {
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+
+
+            }
+
+            .snake {
+                width: 100%;
+
+                .snakebox {
+                    width: 50px;
+                    height: 50px;
+                    border-radius: 59%;
+                    background-color: red;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    margin: auto;
+
+                }
+
+                .kcontentbox2 {
+
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+
+    }
+
+    .ktours {
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+        padding-top: 30px;
+
+        .two_day {
+            width: 100%;
+
+            border: 1px solid rgb(136, 134, 134);
+
+            .tourimg {
+                height: 300px;
+                opacity: 1;
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+                object-fit: cover;
+            }
+
+            .Kheadtitile {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                font-weight: 600;
+            }
+
+            .kcontent_text {
+                width: 90%;
+                margin: auto;
+                line-height: 30px;
+                opacity: 0.5;
+
+            }
+
+            .time_distance {
+                padding-left: 40px;
+                padding-top: 10px;
+                display: flex;
+                padding-left: 30px;
+
+
+                .Kdistance {
+                    margin-left: 30px;
+                }
+
+            }
+        }
+
+        .one_day {
+            width: 100%;
+            border: 1px solid rgb(136, 134, 134);
+
+            .onetourimg {
+                height: 300px;
+                opacity: 1;
+                border-bottom-right-radius: 8px;
+                border-bottom-left-radius: 8px;
+                object-fit: cover;
+            }
+
+            .kheadtitle2 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                padding-top: 30px;
+                font-weight: 600;
+            }
+
+            .kontext_text2 {
+                width: 90%;
+                margin: auto;
+                line-height: 30px;
+                opacity: 0.5;
+            }
+
+            .one_tourdistance {
+                padding-left: 40px;
+                padding-top: 10px;
+                display: flex;
+                padding-left: 30px;
+
+
+                .Kdistance2 {
+                    margin-left: 30px;
+                }
+            }
+        }
+
+    }
+
+    .kplaces {
+        width: 70%;
+        height: 100%;
+        margin: auto;
+        display: flex;
+        gap: 10px;
+        display: flex;
+        padding-top: 70px;
+
+        .kphoto {
+            width: 100%;
+            background-color: black;
+            border-radius: 8px;
+            height: 500px;
+
+            .photo_k {
+                height: 500px;
+                border-radius: 8px;
+                object-fit: cover;
+            }
+
+            .K_text_photo {
+                position: relative;
+                top: -100px;
+                color: white;
+                padding-left: 20px;
+            }
+        }
+
+    }
+
+    .jorney {
+        width: 100%;
+        padding-top: 200px;
+        margin: auto;
+        display: flex;
+
+        .map {
+            width: 100%;
+
+            .discover_map {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .map_but {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
+
+        .fool {
+            width: 100%;
+
+            .fool_text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .fool_disc {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+
+}

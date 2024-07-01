@@ -1,0 +1,50 @@
+.season {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 8px;
+
+    .forimage {
+        width: 100%;
+        min-height: 100% !important;
+        background-color: black;
+        border-radius: 8px;
+        transition: 2s;
+
+
+        &:hover {
+            width: 1800px;
+        }
+
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: 2s;
+            border-radius: 8px;
+
+
+
+        }
+
+        .conntext {
+            position: relative;
+            top: -100px;
+            margin: auto;
+            color: white;
+            align-items: center;
+
+
+            .title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+
+
+    }
+}

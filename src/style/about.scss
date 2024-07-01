@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sevillana&display=swap');
+
+.mainfont {
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.history {
+    width: 100%;
+    padding-top: 100px;
+    font-family: "Edu TAS Beginner", cursive;
+
+    .forim {
+        background-color: black;
+        height: 1000px !important;
+
+        img {
+            width: 100%;
+            height: 1000px !important;
+            position: relative;
+            object-fit: cover;
+
+
+        }
+
+        .imgcontext {
+            height: 100%;
+            position: relative;
+            top: -500px;
+            color: white;
+            padding-left: 100px;
+            font-size: 20px;
+
+            width: 700px;
+        }
+
+        .secimgcontext {
+            position: relative;
+            top: -550px;
+            color: white;
+            padding-left: 60px;
+        }
+
+
+    }
+}
+
+
+.georgia {
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    font-family: "Edu TAS Beginner", cursive;
+
+    padding-top: 100px;
+
+
+
+
+    .startContext {
+        font-size: 18px;
+        margin: auto;
+        padding-top: 30px;
+
+    }
+
+    .Ancient {
+        width: 100%;
+        height: 100%;
+        padding-top: 50px;
+
+        h2 {
+            font-weight: 800;
+            color: red;
+            padding-bottom: 30px;
+        }
+
+        .dance {
+            width: 100%;
+            height: 346px;
+            margin: auto;
+            opacity: 1;
+            object-fit: cover;
+            display: flex;
+            border-radius: 8px;
+        }
+
+        .civilization {
+            font-size: 18px;
+            padding-top: 20px;
+        }
+    }
+
+    .gorgasali {
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+
+        .gorgasali {
+            width: 100%;
+            height: 346px;
+            margin: auto;
+            opacity: 1;
+            object-fit: cover;
+            display: flex;
+            border-radius: 8px;
+        }
+
+        .civilization {
+            font-size: 18px;
+            padding-top: 20px;
+
+        }
+
+    }
+
+    .church {
+
+        width: 100%;
+        height: 100%;
+        margin-top: 20px;
+        padding-bottom: 40px;
+
+        .ch {
+            width: 100%;
+            height: 346px;
+            margin: auto;
+            opacity: 1;
+            object-fit: cover;
+            display: flex;
+            border-radius: 8px;
+        }
+
+        .civilization {
+            font-size: 18px;
+            padding-top: 20px;
+        }
+    }
+}

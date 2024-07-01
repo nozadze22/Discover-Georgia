@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+
+.sevillana-regular {
+    font-family: "Sevillana", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&family=Sevillana&display=swap');
+
+.mainfont {
+    font-family: "Edu TAS Beginner", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.Food {
+    width: 90%;
+    margin: auto;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 6fr);
+    gap: 15px;
+    font-family: "Edu TAS Beginner", cursive;
+    padding-top: 100px;
+    color: white;
+}
+
+
+.headerr2 {
+    width: 100%;
+    height: 100%;
+    color: white;
+    padding-top: 140px;
+    background-color: black;
+
+    .maintitle {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: "Sevillana", cursive;
+        font-size: 60px;
+    }
+}
+
+.dishes {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    padding: 100px;
+
+
+    .warning {
+        font-size: 20px;
+        font-family: "Edu TAS Beginner", cursive;
+        color: red;
+        padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .warning2 {
+        font-size: 20px;
+        font-family: "Edu TAS Beginner", cursive;
+        color: rgb(255, 255, 255);
+        padding-left: 70px;
+        padding-top: 30px;
+    }
+
+    .gonext {
+        width: 150px;
+        height: 40px;
+        display: flex;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 10px;
+
+    }
+}
+
+
+footer {
+    margin-top: 0px;
+}

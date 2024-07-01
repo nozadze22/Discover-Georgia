@@ -1,0 +1,31 @@
+
+[
+    {
+      "id": 1,
+      "name": "Gergeti",
+      "location":"Mtketa-mtianeti",
+      "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Gergetis_Tsminda_Sameba.jpg",
+      "exectloc":"https://georgiantravelguide.com/en/gergeti-holy-trinity-church"
+    },
+    {
+      "id": 2,
+      "name": "Okatse canion",
+     "location": "Samegrelo",
+      "imgUrl": "https://static.guidego.ru/619ba030e51e2007d906b6e4.1600x1200.jpeg",
+      "exectloc": "https://georgiantravelguide.com/en/okatse-canyon"
+    },
+    {
+      "id": 3,
+      "name": "Tsalka (DashBashi) canion",
+      "location": "Qvemo qartli",
+      "imgUrl": "https://avatars.dzeninfra.ru/get-zen_doc/5372100/pub_63ceaf940b2782517faea620_63ceafb64cc81c2049a72132/scale_1200",
+      "exectloc":"https://georgiantravelguide.com/ru/kanon-dashbashi"
+    },
+    {
+      "id": 4,
+      "name": "Dariali monasteri",
+       "location": "Mtketa-mtianeti",
+      "imgUrl": "https://lh3.googleusercontent.com/p/AF1QipMDAkJYzp8m0Qg1NpPffTbLd3mYE1kkCea_TVta=w574-h384-n-k-no-v2-rj",
+      "exectloc":"https://georgiantravelguide.com/en/darialis-samonastro-kompleksi"
+    }
+  ]

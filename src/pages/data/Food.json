@@ -1,0 +1,104 @@
+
+
+[
+
+    {
+        "id": 1,
+        "imgURL": "https://storage.georgia.travel/images/300x400/bozbashi-gnta.webp",
+        "name": "Bozbashi"
+        
+    },
+
+    {
+        "id": 2,
+        "imgURL":"https://storage.georgia.travel/images/300x400/khachapuri-gnta.webp",
+        "name": "Imeretian khawapuri"
+    },
+
+    {
+        "id": 3,
+        "imgURL":"https://storage.georgia.travel/images/300x400/shutterstock-2072341739.webp",
+        "name": "Ajarian khawapuri"
+    },
+
+    {
+        "id": 4,
+        "imgURL": "https://storage.georgia.travel/images/300x400/guruli-khachapuri-gnta.webp",
+        "name": "Gudian pie"
+
+    },
+     {
+        "id": 5,
+        "imgURL": "https://storage.georgia.travel/images/300x400/gozinaki.webp",
+        "name": "Georgian gozinaki"
+     },
+
+      {
+        "id": 6,
+        "imgURL": "https://storage.georgia.travel/images/300x400/jonjoli-gnta.webp",
+        "name": "Jonjoli"
+      },
+
+       {
+        "id": 7,
+        "imgURL": "https://storage.georgia.travel/images/300x400/ajapsandal-gnta.webp",
+        "name": "Ajabsandali"
+       },
+
+        {
+            "id":8,
+            "imgURL": "https://storage.georgia.travel/images/300x400/tatara-gnta.webp",
+            "name": "Tatara"
+        },
+
+        {
+            "id": 9,
+            "imgURL":"https://storage.georgia.travel/images/300x400/shkmeruli-gnta.webp",
+            "name":"Shkmeruli"
+        },
+         {
+            "id": 10,
+            "imgURL": "https://storage.georgia.travel/images/300x400/elarji-gnta.webp",
+            "name": "Elarji"
+         },
+          {
+            "id": 11,
+            "imgURL": "https://storage.georgia.travel/images/300x400/lobiani-gnta.webp",
+            "name": "Lobiani"
+          },
+
+           {
+            "id": 12,
+            "imgURL": "https://storage.georgia.travel/images/300x400/khinkali-gnta.webp",
+            "name": "Xinkhali"
+           },
+
+           {
+            "id": 13,
+            "imgURL": "https://storage.georgia.travel/images/300x400/kalia.webp",
+            "name": "Khalia"
+           },
+
+           {
+            "id":14,
+            "imgURL": "https://storage.georgia.travel/images/300x400/kubdari-gnta.webp",
+            "name": "Kubdari"
+           },
+
+
+           {
+            "id": 15,
+            "imgURL": "https://storage.georgia.travel/images/300x400/chikhirtma-gnta.webp",
+            "name": "Chikhirtma"
+           },
+
+           {
+            "id": 16,
+            "imgURL": "https://storage.georgia.travel/images/300x400/shutterstock-1902463720-1.webp",
+            "name": "Mwvadi"
+           }
+
+
+
+
+]
