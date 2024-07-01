@@ -3,7 +3,7 @@
 export function Mtkheta() {
   return (
     <div>
-        mcxeta
+        mcxeta 
       
     </div>
   )

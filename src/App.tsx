@@ -19,13 +19,12 @@ function App() {
 
 
   return (
-
     <>
     <NavbarBs />
     <section className="section">
     <Routes >
 <Route path="/" element={<Home />} />
-<Route path="/About" element={<About />} />
+<Route path="/About" element={<About/>} />
 <Route path="/Taste" element={<Taste  />} />
  {/* <Route path="/Georgia" element = {<Georgia />} /> */}
 
