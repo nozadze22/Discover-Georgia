@@ -16,7 +16,7 @@ export function Complect({ name, imgUrl, location, exectloc}: ComplectProps) {
         <Card className="forimg">
            <div className="forcolor">
            <Card.Img  src={imgUrl}  />
-            <h4 className="context" style={{color:"white"}}>{name}</h4>
+            <h4 className="context" style={{color:"white", paddingTop: "0px"}}>{name}</h4>
            </div>
 
             <h5 className="location">

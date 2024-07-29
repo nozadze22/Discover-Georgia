@@ -12,6 +12,13 @@ import { Khaxeti } from "./pages/georgia/Khaxeti"
 import  "./style/app.scss"
 import { Taste } from "./pages/Taste"
 import { Footer } from "../components/footer/footer"
+import { Imereti } from "./pages/georgia/Imereti"
+import { Adjara } from "./pages/georgia/Adjara"
+import { Mtskheta } from "./pages/georgia/Mtskheta"
+import { Racha } from "./pages/georgia/Racha"
+import { Samtskhe } from "./pages/georgia/samtskhe-javakheti"
+import {Notfound} from ".././components/notfound"
+
 
 
 
@@ -23,7 +30,7 @@ function App() {
     <NavbarBs />
     <section className="section">
     <Routes >
-<Route path="/" element={<Home />} />
+<Route path="/Home" element={<Home />} />
 <Route path="/About" element={<About/>} />
 <Route path="/Taste" element={<Taste  />} />
  {/* <Route path="/Georgia" element = {<Georgia />} /> */}
@@ -33,16 +40,17 @@ function App() {
 <Route path="Mtkheta" element={<Mtkheta />} />
 <Route path="Samegrelo" element={<Samegrelo />} />
 <Route path="Khaxeti"  element={<Khaxeti/>}/>
-
-
+<Route path="Imereti"  element={<Imereti/>}/>
+<Route path="Adjara"  element={<Adjara/>}/>
+<Route path="Mtskheta"  element={<Mtskheta/>}/>
+<Route path="Racha"  element={<Racha/>}/>
+<Route path="samtskhe-javakheti"  element={<Samtskhe/>}/>
+<Route path="*"  element={<Notfound/>}/>
     </Routes>
     </section>
+    <Footer />
 
-<Footer />
-
-  
-
-   </>
+</>
 
     
     

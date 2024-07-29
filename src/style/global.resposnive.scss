@@ -369,3 +369,74 @@
 }
 
 //xaketi ends
+
+
+
+
+// imeretiii start
+
+@media screen and (max-width: 1400px) {
+    .context {
+        max-width: 80% !important;
+    }
+
+}
+
+@media screen and (max-width: 950px) {
+    .popular {
+        .pics {
+            display: grid;
+            grid-template-columns: 1fr;
+        }
+    }
+
+}
+
+
+@media screen and (max-width: 600px) {
+    .popular {
+        display: grid;
+        grid-template-columns: 1fr !important;
+
+    .pics {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+
+        img {
+            margin: auto !important;
+        }
+    }
+    }
+
+    .context {
+     max-width: 95% !important;   
+     margin: auto;
+
+     .contextText {
+        width: 100% !important;
+     }
+    }
+
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .popular {
+        display: grid;
+        grid-template-columns: 1fr !important;
+
+    .pics {
+        display: grid;
+        grid-template-columns: 1fr;
+
+        img {
+            margin: auto !important;
+        }
+    }
+    }
+}
+
+
+
+//imereti ends

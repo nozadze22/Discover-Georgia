@@ -1,0 +1,67 @@
+.popular {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.pics {
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    gap: 10px;
+    width: 100%;
+
+    img {
+        width: 80%;
+        height: 80%;
+        object-fit: cover;
+        opacity: 1;
+        margin-left: auto;
+        display: flex;
+        border-radius: 8px;
+        box-shadow: 12px 30px 12px black;
+        transition: 2s;
+
+        &:hover {
+            width: 85%;
+            height: 85%;
+
+        }
+
+    }
+}
+
+.context {
+    padding-top: 80px;
+    max-width: 70%;
+    padding-left: 60px;
+    line-height: 15px;
+
+    .contextpop {
+        font-size: 40px;
+        font-weight: bolder;
+    }
+
+    .contextText {
+        line-height: 40px;
+    }
+
+    .discoveer {
+        width: 150px;
+        height: 50px;
+        background-color: white;
+        border: 1px solid red;
+        color: black;
+        font-weight: 600;
+        transition: 0.5s;
+
+        &:hover {
+            background-color: red;
+            color: white;
+            border: white;
+        }
+    }
+
+}
