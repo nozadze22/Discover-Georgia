@@ -30,7 +30,7 @@ function App() {
     <NavbarBs />
     <section className="section">
     <Routes >
-<Route path="/Home" element={<Home />} />
+<Route path="/homepage" element={<Home />} />
 <Route path="/About" element={<About/>} />
 <Route path="/Taste" element={<Taste  />} />
  {/* <Route path="/Georgia" element = {<Georgia />} /> */}

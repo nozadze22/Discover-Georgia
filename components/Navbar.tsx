@@ -13,7 +13,7 @@ export function NavbarBs() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="nav">
-            <Nav.Link href="/Home">Why Georgia</Nav.Link>
+            <Nav.Link href="/homepage">Why Georgia</Nav.Link>
             <Nav.Link href="/About">About</Nav.Link>
             <Nav.Link href="/Taste">Taste</Nav.Link>
 
