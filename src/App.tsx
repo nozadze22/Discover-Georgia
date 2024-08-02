@@ -12,12 +12,13 @@ import { Khaxeti } from "./pages/georgia/Khaxeti"
 import  "./style/app.scss"
 import { Taste } from "./pages/Taste"
 import { Footer } from "../components/footer/footer"
-import { Imereti } from "./pages/georgia/Imereti"
+
 import { Adjara } from "./pages/georgia/Adjara"
 import { Mtskheta } from "./pages/georgia/Mtskheta"
 import { Racha } from "./pages/georgia/Racha"
 import { Samtskhe } from "./pages/georgia/samtskhe-javakheti"
 import {Notfound} from ".././components/notfound"
+import { Imereti } from "./pages/georgia/Imereti"
 
 
 
