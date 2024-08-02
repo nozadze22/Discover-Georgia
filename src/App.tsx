@@ -35,7 +35,6 @@ function App() {
 <Route path="/About" element={<About/>} />
 <Route path="/Taste" element={<Taste  />} />
  {/* <Route path="/Georgia" element = {<Georgia />} /> */}
-
 <Route path="Svaneti" element={<Svaneti/>} />
 <Route path="Qartli"  element ={<Qartli />}/>
 <Route path="Mtkheta" element={<Mtkheta />} />
@@ -51,6 +50,8 @@ function App() {
     </section>
     <Footer />
 
+
+<h2>gogirgrogrogjrogjrgrjgorgorgjrogrogrogmeogmeogmpomggegpogmpo</h2>
 </>
 
     

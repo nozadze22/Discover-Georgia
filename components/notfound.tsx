@@ -9,7 +9,7 @@ const notfound = "https://weare1337.ru/wp-content/uploads/c/3/d/c3de8ec355fe0df6
        <section className="not">
 
          
-<a href="/Home">
+<a href="/homepage">
             <button>Go back to home</button>
            
         </a>
