@@ -17,7 +17,7 @@ import { Adjara } from "./pages/georgia/Adjara"
 import { Mtskheta } from "./pages/georgia/Mtskheta"
 import { Racha } from "./pages/georgia/Racha"
 import { Samtskhe } from "./pages/georgia/samtskhe-javakheti"
-import {Notfound} from ".././components/notfound"
+// import {Notfound} from ".././components/notfound"
 
 
 
@@ -46,7 +46,7 @@ function App() {
 <Route path="Mtskheta"  element={<Mtskheta/>}/>
 <Route path="Racha"  element={<Racha/>}/>
 <Route path="samtskhe-javakheti"  element={<Samtskhe/>}/>
-<Route path="*"  element={<Notfound/>}/>
+{/* <Route path="*"  element={<Notfound/>}/> */}
     </Routes>
     </section>
     <Footer />
