@@ -18,7 +18,7 @@ import { Mtskheta } from "./pages/georgia/Mtskheta"
 import { Racha } from "./pages/georgia/Racha"
 import { Samtskhe } from "./pages/georgia/samtskhe-javakheti"
 import {Notfound} from ".././components/notfound"
-import { Imereti } from "./pages/georgia/Imereti"
+
 
 
 
@@ -41,7 +41,7 @@ function App() {
 <Route path="Mtkheta" element={<Mtkheta />} />
 <Route path="Samegrelo" element={<Samegrelo />} />
 <Route path="Khaxeti"  element={<Khaxeti/>}/>
-<Route path="Imereti"  element={<Imereti/>}/>
+
 <Route path="Adjara"  element={<Adjara/>}/>
 <Route path="Mtskheta"  element={<Mtskheta/>}/>
 <Route path="Racha"  element={<Racha/>}/>
