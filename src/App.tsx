@@ -40,7 +40,7 @@ function App() {
 <Route path="Mtkheta" element={<Mtkheta />} />
 <Route path="Samegrelo" element={<Samegrelo />} />
 <Route path="Khaxeti"  element={<Khaxeti/>}/>
-<Route path="Imereti"  element={<Imereti/>}/>
+<Route path="imereti"  element={<Imereti/>}/>
 <Route path="Adjara"  element={<Adjara/>}/>
 <Route path="Mtskheta"  element={<Mtskheta/>}/>
 <Route path="Racha"  element={<Racha/>}/>
